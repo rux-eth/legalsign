@@ -1,81 +1,40 @@
-.main {
+.homeTitle {
+  height: 30vh;
+  text-align: center;
+  font-size: 6vw;
+  padding-top: 5vh;
+}
+.homeSubtitle {
+  height: 5vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
-
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
-}
-
-.description a {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  font-size: 1.6vw;
+  padding-top: 1vh;
 }
 
-.description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
+.homeNavigation {
+  height: 60vh;
+  text-align: center;
 }
 
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  width: var(--max-width);
-  max-width: 100%;
-}
-
-.card {
-  padding: 1rem 1.2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
-}
-
-.card span {
+.homeCard {
+  height: 40vh;
+  width: 20vw;
+  margin: 15px;
   display: inline-block;
-  transition: transform 200ms;
+  vertical-align: top;
+  text-align: center;
+  background-color: whitesmoke;
+  filter: drop-shadow(5px 10px 10px grey);
+  border-radius: 25px;
 }
 
-.card h2 {
-  font-weight: 600;
-  margin-bottom: 0.7rem;
-}
-
-.card p {
-  margin: 0;
-  opacity: 0.6;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  max-width: 30ch;
-}
-
-.center {
+.homeCardImage {
+  height: 80%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   position: relative;
   padding: 4rem 0;
 }
@@ -109,10 +68,12 @@
   position: relative;
 }
 
-.thirteen {
+.homeCardText {
+  height: 20%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
   width: 75px;
   height: 75px;
   padding: 25px 10px;

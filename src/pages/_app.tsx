@@ -3,7 +3,8 @@ import { SessionProvider } from "next-auth/react";
 import type { AppProps } from "next/app";
 import { WagmiConfig, createClient, configureChains, chain } from "wagmi";
 import { publicProvider } from "wagmi/providers/public";
-import "./styles.css";
+import '@/styles/globals.css'
+import Layout from '../components/layout.tsx'
 
 export const { chains, provider } = configureChains(
   [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
@@ -26,7 +27,9 @@ export default function App({
   return (
     <WagmiConfig client={client}>
       <SessionProvider session={pageProps.session} refetchInterval={0}>
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </SessionProvider>
     </WagmiConfig>
   );
