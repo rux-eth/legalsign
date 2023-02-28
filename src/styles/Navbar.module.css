@@ -1,5 +1,13 @@
-.nav_container{
-    margin: auto;
-    height: 100px;
-    background-color: black;
-  }
+.navContainer {
+  margin: auto;
+  height: 100px;
+  background-color: whitesmoke;
+}
+
+.navLogo {
+  float: left;
+}
+
+.navRight {
+  float: right;
+}

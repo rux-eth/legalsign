@@ -6,8 +6,13 @@ export default function Navbar() {
 
     return (
 
-        <div class={styles.nav_container}>
-
+        <div class={styles.navContainer}>
+            <div class={styles.navLogo}>
+                Logo here
+            </div>
+            <div class={styles.navRight}>
+                Right Side Here
+            </div>
         </div>
     );
-}
+};
