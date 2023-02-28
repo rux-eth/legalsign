@@ -2,13 +2,15 @@
   height: 30vh;
   text-align: center;
   font-size: 6vw;
+  padding-top: 5vh;
 }
 .homeSubtitle {
   height: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2vw;
+  font-size: 1.6vw;
+  padding-top: 1vh;
 }
 
 .homeNavigation {

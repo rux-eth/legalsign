@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.homeTitle}>
         Welcome to LegalSign
         <div className={styles.homeSubtitle}>
-          Decentralized Documents
+          decentralized hosting, signatures, and verifications for legally-binding documents
         </div>
       </div>
       <div className={styles.homeNavigation}>
