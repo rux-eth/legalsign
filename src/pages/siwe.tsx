@@ -1,7 +1,7 @@
 import { getCsrfToken, signIn, useSession } from "next-auth/react";
 import { SiweMessage } from "siwe";
 import { useAccount, useConnect, useNetwork, useSignMessage } from "wagmi";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { InjectedConnector } from "wagmi/connectors/injected";
 import { useEffect, useState } from "react";
 
